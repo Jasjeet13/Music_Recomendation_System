@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
-
 *,
 *::before,
 *::after {
@@ -84,8 +83,8 @@ form.sign-up-form {
 }
 
 .logo h4 {
-  font-size: 1.5rem;
-  margin-top: -10px;
+  font-size: 1.1rem;
+  margin-top: -9px;
   letter-spacing: -0.5px;
   color: #151111;
 }
@@ -211,7 +210,7 @@ main.sign-up-mode .carousel {
   width: 55%;
   left: 45%;
   top: 0;
-  background-color: #eb92ea;
+  background-color: black;
   border-radius: 2rem;
   display: grid;
   grid-template-rows: auto 1fr;
@@ -227,7 +226,9 @@ main.sign-up-mode .carousel {
 }
 
 .image {
-  width: 100%;
+   
+  width: 405px;
+  height: 340px;
   grid-column: 1/2;
   grid-row: 1/2;
   opacity: 0;
@@ -262,6 +263,7 @@ main.sign-up-mode .carousel {
   max-height: 2.2rem;
   overflow: hidden;
   margin-bottom: 2.5rem;
+  color: #420348;
 }
 
 .text-group {
@@ -297,7 +299,7 @@ main.sign-up-mode .carousel {
 
 .bullets span.active {
   width: 1.1rem;
-  background-color: #151111;
+  background-color: #420348;
   border-radius: 1rem;
 }
 
